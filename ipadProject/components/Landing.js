@@ -25,8 +25,8 @@ const styles = StyleSheet.create({
     alignItems: "center"
   },
   text: {
-    marginTop: 100,
-    fontSize: 50,
+    marginTop: 200,
+    fontSize: 60,
     color: "rgba(111, 202, 186, 1)"
   },
   button: {

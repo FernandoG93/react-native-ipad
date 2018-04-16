@@ -9,7 +9,7 @@ export const Screen8 = () => {
       <Text style={styles.text}>
         This is the Last Screen!
       </Text>
-      <Image src="../images/party.png" />
+      <Image source={require("../images/party.png")} />
     </View>
   )
 }
@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
   text: {
     marginTop: 300,
     fontSize: 70,
-    color: "Blue",
+    color: "blue",
     marginBottom: 50
   },
   button: {

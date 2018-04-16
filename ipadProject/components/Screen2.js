@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
   text: {
     marginTop: 100,
     fontSize: 50,
-    color: "orange"
+    color: "green"
   },
   button: {
     width: 400,
