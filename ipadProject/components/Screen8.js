@@ -1,19 +1,15 @@
 import React from 'react'
-import { View, Text, StyleSheet } from "react-native"
+import { View, Text, StyleSheet, Image } from "react-native"
 import { Button } from 'react-native-elements'
 import { Actions } from "react-native-router-flux"
 
-export const Screen1 = () => {
+export const Screen8 = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>
-        This is the 1st Screen!
+        This is the Last Screen!
       </Text>
-      <Button
-        title="Click here to jump into the next screen!"
-        onPress={() => Actions.jump("screen2")}
-        style={styles.button}
-      />
+      <Image src="../images/party.png" />
     </View>
   )
 }
@@ -25,9 +21,10 @@ const styles = StyleSheet.create({
     alignItems: "center"
   },
   text: {
-    marginTop: 100,
-    fontSize: 50,
-    color: "orange"
+    marginTop: 300,
+    fontSize: 70,
+    color: "Blue",
+    marginBottom: 50
   },
   button: {
     width: 400,
