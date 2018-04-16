@@ -1,6 +1,7 @@
 import React from "react"
 import { Router, Scene, Stack } from "react-native-router-flux"
-import { Landing, Screen1 } from "./Landing"
+import { Landing } from "./Landing"
+import { Screen1 } from "./Screen1"
 
 export const Navigator = () => (
   <Router>

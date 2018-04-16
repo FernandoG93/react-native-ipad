@@ -2,7 +2,7 @@ import React from 'react'
 import { View, Text, StyleSheet } from "react-native"
 import { Button } from 'react-native-elements'
 
-export const Landing = () => {
+export const Screen1 = () => {
   return (
     <View style={styles.container}>
       <Text>
