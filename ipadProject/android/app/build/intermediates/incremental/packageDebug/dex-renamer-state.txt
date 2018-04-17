@@ -1,0 +1,4 @@
+#Tue Apr 17 12:09:42 CEST 2018
+base.0=C\:\\dev\\ipad\\react-native-ipad\\ipadProject\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\dev\\ipad\\react-native-ipad\\ipadProject\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
